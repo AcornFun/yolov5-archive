@@ -17,6 +17,7 @@ This project implements a graphical user interface (GUI)-based object detection 
 Install required libraries:
 ```bash
 pip install PyQt5 numpy opencv-python torch torchvision
+### Cuda pip
 CUDA & PyTorch Configuration
 Check CUDA Version:
 Ensure your GPU supports CUDA. Run nvidia-smi in the command line to check compatibility.
