@@ -25,8 +25,10 @@ Install PyTorch with CUDA:
 Visit PyTorch's official site to install the correct PyTorch version for your CUDA. Example:
 ```bash
 pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 --extra-index-url https://download.pytorch.org/whl/cu113
+````
 ### Dependencies
 Install required libraries:
 ```bash
 pip install PyQt5 numpy opencv-python torch torchvision
+````
 
