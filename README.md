@@ -12,11 +12,6 @@ This project implements a graphical user interface (GUI)-based object detection 
 - **Python**: 3.8 or higher
 - **OS**: Windows (recommended)
 - **GPU**: NVIDIA GPU (optional for CUDA acceleration)
-
-### Dependencies
-Install required libraries:
-```bash
-pip install PyQt5 numpy opencv-python torch torchvision
 ### Cuda pip
 CUDA & PyTorch Configuration
 Check CUDA Version:
@@ -28,3 +23,8 @@ Download the CUDA Toolkit version compatible with your GPU from NVIDIA's website
 Install PyTorch with CUDA:
 Visit PyTorch's official site to install the correct PyTorch version for your CUDA. Example:
 pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 --extra-index-url https://download.pytorch.org/whl/cu113
+### Dependencies
+Install required libraries:
+```bash
+pip install PyQt5 numpy opencv-python torch torchvision
+
